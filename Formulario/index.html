@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="containerTitle">
+            <h1 class="title">Formulário</h1>
+        </div>
+
+        <div class="containerInput">
+            <h2 class="subTitle">Dados Pessoais</h2>
+
+            <div class="divisor">
+                <input type="text" id="name" placeholder="Nome" required>
+            </div>
+
+            <div class="divisor">
+                <input type="text" id="rg" placeholder="RG" required>
+                <input type="text" id="oe" placeholder="Órgão Emissor" required>
+                <input type="text" id="cpf" placeholder="CPF" required>
+            </div>
+
+            <div class="divisor">
+                <input type="date" id="birthday" placeholder="Data de Nascimento" required>
+                <input type="text" id="nationality" placeholder="Nacionalidade" required>
+            </div>
+
+            <div class="divisor">
+                <input type="text" id="cep" placeholder="CEP" required>
+                <input type="text" id="address" placeholder="Endereço" required>
+                <input type="text" id="number" placeholder="Número" required>
+            </div>
+            <div class="divisor">
+                <input type="text" id="neighborhood" placeholder="Bairro" required>            
+                <input type="text" id="city" placeholder="Cidade" required>
+                <input type="text" id="state" placeholder="Estado" required>
+            </div>
+
+            <div>
+                <span class="text">Sexo:</span><br>
+                <input type="radio" id="masc" value="Masculino" name="gender">
+                <label for="masc">Masculino</label>
+
+                <input type="radio" id="fem" value="Feminino" name="gender">
+                <label for="fem">Feminino</label>
+
+                <input type="radio" id="other" value="Outro" name="gender">
+                <label for="other">Outro</label>
+            </div>
+
+            <div>
+                <span class="text">Raça: </span><br>
+                <input type="radio" id="yellow" value="Yellow" name="race">
+                <label for="yellow">Amarela</label>
+
+                <input type="radio" id="white" value="White" name="race">
+                <label for="white">Branca</label>
+
+                <input type="radio" id="native" value="Native" name="race">
+                <label for="native">Indígena</label>
+
+                <input type="radio" id="brown" value="Brown" name="race">
+                <label for="brown">Parda</label>
+
+                <input type="radio" id="black" value="black" name="race">
+                <label for="black">Preta</label>
+            </div>
+
+            <h2 class="subTitle">Informações de Contato</h2>
+
+            <div class="divisor">
+                <input type="tel" name="telPhone" id="telPhone" placeholder="Telefone" required>
+                <input type="tel" name="celPhone" id="celPhone" placeholder="Celular" required>
+            </div>
+
+            <div class="divisor">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div class="div">
+                <button class="btn">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

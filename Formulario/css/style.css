@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #322938;
+
+}
+
+.containerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: #322938;
+}
+
+.title{
+    font-family: poppins;
+    font-size: 40px;
+    color: #cfc89a;
+}
+
+.containerInput{
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    background-color:  #cfc89a;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.subTitle{
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0px 20px 0px;
+}
+
+#name, #email, #birthday, #nationality, #celPhone, #telPhone{
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    border: 1px #322938 solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: poppins;
+    background-color: #cfc89a;
+}
+
+#name:hover, #email:hover,#rg:hover, #oe:hover, #cpf:hover, #birthday:hover, #nationality:hover, #cep:hover, #state:hover, #address:hover, #neighborhood:hover, #city:hover, #number:hover, #celPhone:hover, #telPhone:hover {
+    border: 1px #a14016 solid;
+}
+
+.divisor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#rg, #oe, #cpf, #cep, #state, #address, #neighborhood, #city, #number{
+    padding-left: 10px;
+    width: 30%;
+    height: 35px;
+    font-size: 18px;
+    border: 1px #322938 solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: poppins;
+    background-color: #cfc89a;
+}
+
+#birthday, #nationality, #celPhone, #telPhone{
+    width: 45%;
+}
+
+.text{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type='radio']{
+    background-color: #a14016;
+    margin-block: 10px;
+}
+
+label{
+    margin-right: 10px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+.btn{
+    background-color: #322938;
+    color: #cfc89a;
+    border-radius: 20px;
+    width: 130px;
+    font-family: poppins;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #cfc89a;
+}
+
+.btn:hover{
+    background-color: #a14016;
+    color: #322938;
+}
+
+.btn:active{
+    margin-top: 1px;
+    margin-bottom:-1px ;
+}
